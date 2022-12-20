@@ -1,0 +1,342 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size:18pt;
+    }
+    
+    body {
+    padding: 0; 
+    }
+    
+    #conteiner { 
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    }
+    
+    #top {
+    width: 24%; 
+    height: 150px;
+    background: rgb(0, 148, 247);
+    position: absolute;
+    cursor: pointer;
+    
+    }
+
+    #top2 {
+        width: 76%;
+        height: 150px;
+        background: #E8E8E8;
+        position: absolute;
+        margin-left: 450px;
+    }
+
+    #gall {
+        width:100%;
+        height:700px;
+        background-color:#FFFFFF;
+        text-align: center;
+        position: absolute;
+        background-color:#FFFFFF;
+        -moz-user-select: none; user-select: none;
+        margin-top: 150px;
+
+    }
+    
+    #main {
+        position: absolute;
+    width: 50%;
+    height: 665px;
+    left: 0px;
+    top: 450px;
+    background: #EEEEEE;
+    }
+
+    #main0 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 958.5;
+    top: 0px;
+    background: #EEEEEE;
+    
+    }
+
+    #main2 {
+        position: absolute;
+    width: 1917px;
+    height: 665px;
+    left: 0px;
+    top: 650px;
+    background: #FFFFFF;
+    }
+
+    #main3 {
+        position: absolute;
+    width: 1917px;
+    height: 550px;
+    left: 0px;
+    top: 690px;
+    background: #EEEEEE;
+    }
+    #main11 {
+        position: absolute;
+    width: 20%;
+    height: 665px;
+    left: 0px;
+    top: 650px;
+    background: #EEEEEE;
+    }
+    #main12 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 500px;
+    top: 0px;
+    background: #EEEEEE;
+    }
+    #main13 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 479.25px;
+    top: 650px;
+    background: #EEEEEE;
+    }
+    #main14 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 639px;
+    top: 650px;
+    background: #EEEEEE;
+    }
+    #main15 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 958,5px;
+    top: 650px;
+    background: #EEEEEE;
+    }
+
+
+    #main4 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 0px;
+    top: 550px;
+    background: #FFFFFF;
+    }
+
+    #main5 {
+        position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 1600px;
+    background: #EEEEEE;
+    }
+
+    #main6 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 0px;
+    top: 600px;
+    background: #FFFFFF;
+    }
+
+    #main01 {
+        position: absolute;
+    width: 100%;
+    height: 665px;
+    left: 0px;
+    top: 100px;
+    background: #EEEEEE;
+    }
+
+    
+    #footer {
+        width: 100%; 
+        height: 150px; 
+        position: absolute;
+        background: #555555; 
+        top: 800px;
+        left: 0px;
+        float: left;
+        color:#FFFFFF;
+       
+        
+    }
+
+    .navigation {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+
+    }
+    .button {
+        background-color: #E8E8E8;
+        white-space: normal;
+        border-radius: 10px;
+        font-size: 22px;
+        padding: 10px 17px;
+        margin: 10px 20px 0px 20px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    
+    .button:hover {
+        background-color: rgb(194, 194, 194);
+
+    }
+    .style2 {
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .button2 {
+        background-color: #21da08;
+        white-space: normal;
+        border-radius: 5px;
+        font-size: 22px;
+        padding: 10px 17px;
+        margin: 10px 20px 0px 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .button2:hover {
+        background-color: rgb(103, 209, 103);
+    }
+
+    .navigation2 {
+        text-align:left;
+        justify-content:center;
+        display: flex;
+        background-color:#21da08 ;
+        color: #FFFFFF;
+        font-size: 22px;
+        line-height: 1.5;
+        font-family:'Times New Roman', Times, serif;
+
+
+    }
+
+    .navigation3 {
+        text-align:right;
+        justify-content: center;
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .navigation4 {
+        text-align:left;
+        justify-content:center;
+        display: flex;
+        cursor: pointer;
+
+    }
+
+    .navigation5 {
+        text-align:left;
+        justify-content:center;
+        display: flex;
+        font-size: 22px;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+       
+
+    }
+
+    .navigation6 {
+        text-align:center;
+        justify-content:center;
+        display: flex;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+       
+
+    }
+
+    .line { 
+        border-left: 2px solid #555555;
+        margin-left: 20px;
+        padding-left: 10px;
+        word-spacing: 100px;
+       }
+       .wrap {
+        width: auto;
+        margin: 0 auto;
+        background: #21da08;
+        height: 120px;
+       }
+
+.bblock {
+       float: left; 
+       line-height: 50px;
+       font-size: 22px;
+       background: #EEEEEE;
+       color: black;
+       width: 376px; 
+       margin-right: 7px;
+       text-align: center; 
+
+}
+.wrap :last-child {
+       margin-right: 0px;
+                      }
+ .wrap2 {
+        width: 100%;
+        margin: 2 auto;
+        background: #ffffff;
+        height: 120px;
+       }
+
+.bblock2 {
+       float:left; 
+       line-height: 80px;
+       font-size: 22px;
+       background: #FFFFFF;
+       color: black;
+       width: 400px; 
+       margin-right: 3px;
+       margin-top: 35px;
+       text-align: center; 
+       border: 5px solid #21da08;
+    padding: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.bblock2:hover {
+    background-color: rgb(194, 194, 194);
+}
+.wrap2 :last-child {
+       margin-right: 0px;
+       left: 10px;
+ }
+
+P.fig {
+    text-align: center; 
+   }
+   .frame {
+    border: 7px solid #21da08;
+   }
+   .frame2 {
+    cursor: pointer;
+   }
+   .img {
+       width: 900px;
+       text-align: center;
+       height:600px;
+       top:50px;
+   }
